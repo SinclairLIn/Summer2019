@@ -1,0 +1,50 @@
+body{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+ /* dl {
+    float:left;
+} */
+
+
+.container{
+    width: 900px;
+    display: table;
+}
+section{
+    clear: both;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+dd{
+    margin-right:20px;
+    
+}
+dt{
+    font-weight:800;
+}
+dt,dd{
+    float:left;
+    display: inline;
+}
+ul{
+    height: 10px;
+}
+li{
+    margin-top: 10px;
+}
+.title{
+    display: table-cell;
+    background-color: aqua;
+    width:15%;
+    text-align: center;
+    
+}
+.content{
+    display: table-cell;
+    width: 82%;
+    padding: 1%;
+    background-color: #F8F8FF;
+}

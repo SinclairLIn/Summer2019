@@ -1,0 +1,30 @@
+
+body{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+ /* dl {
+    float:left;
+} */
+
+section{
+    clear: both;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+dd{
+    margin-right:20px;
+    
+}
+dt,dd{
+    float:left;
+    display: inline;
+}
+ul{
+    height: 10px;
+}
+li{
+    margin-top: 10px;
+}
