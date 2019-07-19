@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>layout_demo</title>
+    <style>
+    body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.header {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+.header_center {
+    width: 960px;
+    height: 80px;
+    background-color: #333333;
+    margin: 0 auto;
+}
+.logo {
+    font-size: 26px;
+    margin-top: 15px;
+}
+.header_nav {
+    font-size: 15px;
+    margin-top: 5px;
+}
+.header a:link {
+  color: #FFFFFF;
+}
+.header a:visited {
+  color: #FFFFFF;
+}
+.header a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.header a:active {
+  color: blue;
+}
+.banner {
+    min-width: 960px;
+    height: 300px;
+    background-color: #66BB33;
+    position: relative;
+}
+.num_nav {
+    position: absolute;
+    right: 183px;
+    bottom: 10px;
+}
+.n1,.n3,.n4 {
+    height: 34px;
+    width: 29px;
+    border: 1px solid #3A6E1B;
+    background-color: #B2DD99;
+    color: #3A6E1B;
+    text-align: center;
+    line-height: 34px;
+    margin-left: 5px;
+}
+.n2 {
+    height: 49px;
+    width: 29px;
+    border: 1px solid #000000;
+    background-color: #E0F1D6;
+    color: #000000;
+    margin-top: -15px;
+    text-align: center;
+    line-height: 63px;
+    margin-left: 5px;
+}
+.nav {
+    min-width: 960px;
+    height: 70px;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 5px;
+}
+.home {
+    height: 50px;
+    width: 110px;
+    border: 1px solid #DDDDDD;
+    border-bottom: 1px solid #FFFFFF;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    margin-left: 206px;
+    margin-top: 19px;
+    text-align: center;
+    line-height: 50px;
+}
+.profile,.about {
+    height: 50px;
+    width: 110px;
+    border: 1px solid #DDDDDD;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    background-color: #EEEEEE;
+    margin-top: 19px;
+    text-align: center;
+    line-height: 50px;
+}
+.content a:link {
+  color: #000000;
+  text-decoration: none;
+}
+.content a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+.content a:hover {
+  color: #808080;
+  text-decoration: none;
+}
+.content a:active {
+  color: #808080;
+}
+.main {
+    width: 948px;
+    margin: 0 auto;
+}
+.line_1,.line_2,.line_3 {
+    width: 948px;
+    display: flex;
+}
+.content1,.content2,.content3,.content4,.content5,.content6,.content7,.content8,.content9,.content10 {
+    height: 174px;
+    flex: 1;
+    text-align: center;
+    line-height: 174px;
+    border: 1px solid #DDDDDD;
+    margin: 5px;
+}
+.footer {
+    min-width: 960px;
+    height: 120px;
+    background-color: #666666;
+    text-align: center;
+    margin-top: 15px;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_center">
+            <div class="logo fl">Logo</div>
+            <div class="header_nav fr">
+                <a href="#">Github</a>&nbsp
+                <a href="#">Register</a>&nbsp
+                <a href="#">Login</a>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="num_nav">
+            <div class="n1 fl">1</div>
+            <div class="n2 fl">2</div>
+            <div class="n3 fl">3</div>
+            <div class="n4 fl">4</div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="nav">
+            <div class="home fl"><a href="#">HOME</a></div>
+            <div class="profile fl"><a href="#">PROFILE</a></div>
+            <div class="about fl"><a href="#">ABOUT</a></div>
+        </div>
+        <div class="main">
+            <div class="line_1">
+                <div class="content1">This is Content 1</div>
+                <div class="content2">Maybe Content 2</div>
+                <div class="content3">Content 3</div>
+            </div>
+            <div class="line_2">
+                <div class="content4">Content4</div>
+                <div class="content5">Content5</div>
+                <div class="content6">Content6</div>
+                <div class="content7">Content7</div>
+            </div>
+            <div class="line_3">
+                <div class="content8">Content8</div>
+                <div class="content9">Content9</div>
+                <div class="content10">Content10</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">© 2018 ife.baidu.com</div>
+</body>
+
+</html>
