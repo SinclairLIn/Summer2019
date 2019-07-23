@@ -1,0 +1,544 @@
+.nav {
+    position: fixed;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 350px;
+    height: 100%;
+    z-index: 1000;
+}
+
+.button-group {
+    position: relative;
+    width: 100px;
+    height: 100%;
+    background-color: #1d2531;
+}
+
+.button-group .classify {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.button-group .classify li {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.button-group .operation {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.button-group .operation ul {
+    display: flex;
+    padding: 0 6px;
+    justify-content: space-between;
+}
+
+.button-group .operation li {
+    width: 16px;
+    height: 16px;
+}
+
+nav {
+    position: relative;
+    width: 250px;
+    height: 100%;
+    background-color: #222c3c;
+}
+
+nav .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    height: 85%;
+    overflow: hidden;
+}
+
+nav .goal {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 23px;
+}
+
+nav .content dl {
+    vertical-align: top;
+}
+
+nav .content dt {
+    height: 34px;
+    line-height: 16px;
+    font-size: 16px;
+    color: #5b6779;
+}
+
+nav .content dt a {
+    float: right;
+}
+
+nav .content dd {
+    position: relative;
+    font-size: 14px;
+    line-height: 38px;
+}
+
+nav .content dd .icon {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background: url(https://fenpho.github.io/baidu-ife/day12-15/images/book.png) left center no-repeat;
+}
+
+nav .content dd .icon.video {
+    background: url(https://fenpho.github.io/baidu-ife/day12-15/video.png) left center no-repeat;
+}
+
+nav .content dd .icon.painting {
+    background: url(https://fenpho.github.io/baidu-ife/day12-15/painting.png) left center no-repeat;
+}
+
+nav .content dd .icon.chart {
+    background: url(https://fenpho.github.io/baidu-ife/day12-15/chart.png) left center no-repeat;
+}
+
+nav .content a {
+    color: #b7c0cd;
+    text-decoration: none;
+}
+
+nav .content i.info,
+nav .content i.warm {
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 28px;
+    height: 20px;
+    line-height: 20px;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #2399f2;
+}
+
+nav .content i.warm {
+    width: 20px;
+    background-color: #e03d21;
+}
+
+nav .content .last-child {
+    padding-bottom: 15px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #2a3547;
+}
+
+nav .goal .month {
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 13px;
+    color: #fff;
+    justify-content: space-between;
+}
+
+nav .goal .progress {
+    position: relative;
+    height: 4px;
+}
+
+nav .progress .outer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 4px;
+    width: 100%;
+    background-color: #2d3848;
+    border-radius: 2px;
+}
+
+nav .progress .inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 4px;
+    width: 20%;
+    background-color: #8769e5;
+    border-radius: 2px;
+}
+
+.main {
+    margin-left: 350px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e9ec;
+    width: 100%;
+}
+
+.title {
+    padding-left: 30px;
+    font-size: 24px;
+    color: #354052;
+    line-height: 80px;
+}
+
+.user-info {
+    display: flex;
+    padding: 17px 85px;
+}
+
+.avatar {
+    position: relative;
+    margin-right: 15px;
+    width: 46px;
+    height: 46px;
+}
+
+.status {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.status .online {
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 3px solid #38a76a;
+    border-radius: 50%;
+}
+
+.user-info .info span {
+    display: block;
+}
+
+.info .name {
+    font-size: 16px;
+    line-height: 22px;
+    color: #2399f2;
+}
+
+.identity {
+    font-size: 14px;
+    line-height: 22px;
+    color: #b5b5b5;
+}
+
+user-info .info-btn {
+    position: absolute;
+    right: 30px;
+    top: 28px;
+    border: none;
+    background: transparent;
+}
+
+.middle {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    min-width: 990px;
+    justify-content: space-between;
+    color: #585d68;
+    flex-wrap: nowrap;
+}
+
+.search {
+    flex: 0 1;
+    border-bottom: 1px solid #e6e9ec;
+    text-align: center;
+    padding: 17px 20px 17px 20px;
+}
+
+.search input {
+    width: 360px;
+    height: 36px;
+    padding: 0 3%;
+    border: 1px solid #e5e8ee;
+    border-radius: 5px;
+    background: url(https://fenpho.github.io/baidu-ife/day12-15/images/search.png) 97% center no-repeat;
+    outline: none;
+}
+
+.middle .name-box {
+    flex: 1 1;
+    font-size: 18px;
+    padding: 0 30px;
+    line-height: 70px;
+    border-bottom: 1px solid #e6e9ec;
+}
+
+.name-box .name {
+    position: relative;
+}
+
+.middle .point {
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    width: 8px;
+    height: 8px;
+    background-color: #28bd3f;
+    border-radius: 50%;
+}
+
+.middle .operation {
+    flex: 2 1;
+    display: flex;
+    border-bottom: 1px solid #e6e9ec;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.middle .operation ul {
+    height: 32px;
+    border: 1px solid #ced0da;
+    border-radius: 5px;
+}
+
+.middle .operation .prev {
+    margin-right: 45px;
+}
+
+.middle .operation li {
+    float: left;
+    width: 35px;
+    height: 100%;
+    text-align: center;
+    line-height: 32px;
+}
+
+.prev li:nth-child(2) {
+    border-left: 1px solid #ced0da;
+    border-right: 1px solid #ced0da;
+}
+
+.page {
+    margin-right: 15px;
+}
+
+.page i {
+    font-style: normal;
+}
+
+.middle .operation .next-prev {
+    margin-right: 20px;
+}
+
+.next-prev li:last-child {
+    border-left: 1px solid #ced0da;
+}
+
+.main .content {
+    color: #585d68;
+    display: flex;
+    width: 100%;
+}
+
+.messages {
+    height: 100%;
+}
+
+.content .messages .list li.active {
+    border-left: 3px solid #2399f2;
+}
+
+.content .messages .list li {
+    height: 130px;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e5e8ee;
+    width: 400px;
+}
+
+.content .messages li .head {
+    display: flex;
+    position: relative;
+}
+
+.content .messages li .head img {
+    margin-right: 20px;
+}
+
+.list li.active .name {
+    color: #2399f2;
+    padding-left: 16px;
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 3px;
+}
+
+.content .active .point {
+    display: block;
+}
+
+.content .point {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #2399f2;
+    border-radius: 50%;
+    display: none;
+}
+
+.content .messages li .head .descript {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #b5b5b5;
+}
+
+.content .messages li .head .time {
+    position: absolute;
+    right: 0;
+    top: 13px;
+    font-size: 14px;
+    color: #7f8fa4;
+}
+
+.content .messages .list li.active .body {
+    padding-right: 60px;
+}
+
+.content .messages li .body {
+    position: relative;
+    padding-top: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.num {
+    position: absolute;
+    right: 0;
+    top: 22px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 14px;
+    background-color: #2399f2;
+    line-height: 24px;
+}
+
+.content .messages li .head .name {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 3px;
+}
+
+.news .body {
+    border-left: 1px solid #e6e9ec;
+}
+
+.news .body .date>.time {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color: #d9dde3;
+}
+
+.news .body .hide {
+    display: none;
+}
+
+.news .body .date .time .week {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #fff;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #7f8fa4;
+}
+
+.news .body ul {
+    padding: 30px;
+}
+
+.news .body li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.body li img {
+    width: 46px;
+    height: 46px;
+    margin-right: 20px;
+}
+
+.news .body li .name {
+    font-size: 16px;
+    line-height: 28px;
+    margin-right: 20px;
+}
+
+.news .body li .time {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7f8fa4;
+}
+
+.news .body li .descript {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.news .body li .pic-list {
+    padding-top: 13px;
+    width: 100%;
+    min-width: 403px;
+}
+
+.news .body li .pic-list li {
+    position: relative;
+    width: 156px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 13px;
+    margin-bottom: 0;
+}
+
+.news .body li .pic-list li .mask {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pic-list li img {
+    width: 100%;
+    height: 100%;
+}
